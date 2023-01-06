@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un magasin de vente de produit cosmétique </title>
+    <link rel="stylesheet" href="./BRIEF8.CSS">
+</head>
+<body>
+    <main id="main">
+
+        <article> 
+             
+            <section>
+             
+               <div id="section">
+         
+                <div id="section3">
+                    <h1>Magasin:</h1>
+              <label for="Nom">Nom:</label>
+         <input type="text" id="nom" placeholder="Nom" >
+                <span id="Nom"></span><br>
+              
+                <!-- Marque -->
+                <label for="Marque">Marque:</label>
+                <input type="text" id="Marque" placeholder="Marque" >
+                <span id="mrq"></span><br>
+               
+                <!-- Prix -->
+                <label for="Prix">Prix:</label>
+                <input type="text" id="Prix" placeholder="Prix">
+                <span id="prx"></span><br>
+                
+                    <!-- date de production -->
+                <label for=" Date de production">Date de production:</label>
+                <input type="date" id="date"  >
+                <span id="dat"></span><br>
+                  <!-- type-->
+                <label for="Type">Type:</label>
+                <select id="type" >
+                <option > --Selectioner SVP!--</option>
+            <option value="Hygiène et toilette​">Hygiène et toilette ​</option>
+            <option value="Soins esthétiques ​">Soins esthétiques ​​</option>
+            <option value="Produits solaires ​">Produits solaires ​ ​</option>
+            <option value="Beauté des mains et des pieds ​">Beauté des mains et des pieds ​ ​</option>
+            <option value="Entretien capillaires​">Entretien capillaires​ ​</option>
+            <option value=" Parfum​"> Parfum​ ​</option>
+                </select>
+                <span id="typ"></span><br>
+               
+           
+            
+                   <!-- Promotion-->
+                
+                <label for=" Promotion"> Promotion:</label>
+
+                <label for="DW101"class="promotion" >Oui:</label>
+                <input type="radio"name=" promotion" id="OUI" value="Oui"  class="promotion">
+          
+              
+              <label for="DW102"class="promotion">Non:</label> 
+              <input type="radio"name=" promotion" id="NON" value="Non" class="promotion">
+              
+              <span id="promo" class="promotion"></span><br>
+
+
+          <!--Button-->
+            <button onclick="Suivant()" id="button">Ajouter</button>
+            <span id="class"></span>
+        </div>
+        </div>
+        
+  
+
+            </section>
+            <section>
+               
+                <table id="table"> 
+                 
+                    
+
+                    <th>
+                  <h2>Nom:</h2>
+                    </th>
+                    <th>
+                   
+                        <h2>Marque:</h2>
+                    </th>
+                        <th>
+                         
+                            <h2>Prix:</h2>
+                        </th>
+                            <th>
+                             
+                                <h2>Date de production:</h2>
+                            </th>
+                            <th>
+                               
+                            
+                                <h2>Type:</h2>
+                            </th>
+                           
+                            <th>
+              
+                                <h2>Promotion:</h2>
+                           </th>
+
+                            <th>
+              
+                 <h2>Modification:</h2>
+            </th>
+                  <!-- <tbody id="tbody">
+
+                  </tbody> -->
+                   
+                            </table>
+                            
+                
+                        </section>
+                    </article>
+            </section>
+        </article>
+    </main>
+    <script src="./BRIEF8.JS"></script>
+</body>
+</html>
